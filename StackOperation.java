@@ -8,28 +8,28 @@ public class StackOperation {
     public static void main(String args[]) 
     { 
         // Creating an empty Stack 
-        Stack<String> stack = new Stack<String>(); 
+        Stack<String> mystack = new Stack<String>(); 
   
         // Use push() to add elements into the Stack 
-        stack.push("Welcome"); 
-        stack.push("To"); 
-        stack.push("Geeks"); 
-        stack.push("For"); 
-        stack.push("Geeks"); 
+        mystack.push("Welcome"); 
+        mystack.push("To"); 
+        mystack.push("my"); 
+        mystack.push("stack"); 
+        mystack.push("program"); 
         
   
         // Displaying the Stack 
-        System.out.println("Initial Stack: " + stack); 
+        System.out.println("Initial Stack: " + mystack); 
   
    System.out.println("Popped element: "
-                           + stack.pop());  
+                           + mystack.pop());  
 
         // Fetching the element at the head of the Stack 
         System.out.println("The element at the top of the"
-                           + " stack is: " + stack.peek()); 
+                           + " stack is: " + mystack.peek()); 
   
         // Displaying the Stack after the Operation 
-        System.out.println("Final Stack: " + stack); 
+        System.out.println("Final Stack: " + mystack); 
        
     } 
 }
